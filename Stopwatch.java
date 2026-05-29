@@ -62,7 +62,7 @@ public class Stopwatch implements ActionListener {
         frame.add(reset);
         frame.add(time);
 
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(450,450);
         frame.getContentPane().setBackground(new Color(115, 195, 249));
         frame.setLayout(null);
