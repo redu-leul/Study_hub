@@ -41,6 +41,7 @@ public class Flashcard extends StudyTool implements ActionListener {
         frame.setTitle("Flashcards");
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(600,600);
+        frame.getContentPane().setBackground(new Color(115, 195, 249));
         frame.setLayout(null);
         frame.setVisible(true);
     }
